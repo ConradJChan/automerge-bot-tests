@@ -1,1 +1,2 @@
 status = ["continuous-integration/travis-ci/push"]
+block_labels = ["don't-merge"]
