@@ -1,4 +1,7 @@
 import React from 'react';
+
+import {hello} from './utils/utils';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -9,6 +12,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <p>
+          { hello('Conrad') }
         </p>
         <a
           className="App-link"
